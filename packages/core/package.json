@@ -12,8 +12,14 @@
     "react",
     "ui",
     "components",
-    "library"
+    "library",
+    "component",
+    "design",
+    "framework",
+    "frontend",
+    "react-component"
   ],
+  "sideEffects": false,
   "author": "Anuj Sharma <aanuj.sharma2590@gmail.com>",
   "license": "MIT",
   "repository": {

@@ -14,6 +14,7 @@
     "components",
     "library"
   ],
+  "sideEffects": false,
   "author": "Anuj Sharma <aanuj.sharma2590@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -37,6 +38,7 @@
     "@reacture/core": "^2.0.0"
   },
   "devDependencies": {
+    
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "typescript": "^4.0.0",
