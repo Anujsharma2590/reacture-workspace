@@ -1,25 +1,34 @@
 {
   "name": "@reacture/grid",
   "version": "1.0.0",
+  "description": "Advanced grid components for Reacture",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
+  "keywords": ["react", "grid", "components", "library"],
+"author": "Anuj Sharma <aanuj.sharma2590@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/reacture-monorepo.git",
+    "directory": "packages/grid"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "tsc --project tsconfig.json && tsc --project tsconfig.esm.json"
+    "build": "tsc --project tsconfig.json && tsc --project tsconfig.esm.json",
+    "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
-    "@reacture/core": "1.0.0",
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
-  },
-  "dependencies": {
-    "@reacture/core": "1.0.0"
+    "react-dom": ">=16.8.0",
+    "@reacture/core": "^1.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.1"
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.0.0"
   }
 }
