@@ -1,0 +1,14 @@
+{
+  "name": "reacture",
+  "private": true,
+  "scripts": {
+    "build": "yarn workspaces run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
