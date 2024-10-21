@@ -1,3 +1,0 @@
-yarn run v1.22.22
-$ tsc --project tsconfig.json && tsc --project tsconfig.esm.json
-Done in 4.76s.
