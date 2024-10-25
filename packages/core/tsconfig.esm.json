@@ -5,6 +5,7 @@
       "module": "ESNext",
       "rootDir": "src"
     },
-    "include": ["src/**/*"]
+    "include": ["src/**/*"],
+    "exclude": ["**/*.stories.*", "src/**/*.test.*", "node_modules"]
   }
   

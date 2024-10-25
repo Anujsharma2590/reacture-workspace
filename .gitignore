@@ -21,3 +21,5 @@ build/
 
 # Other ignores
 .env
+
+*storybook.log
