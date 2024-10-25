@@ -32,7 +32,7 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc --project tsconfig.json && tsc --project tsconfig.esm.json",
+    "build": "tsc --project tsconfig.cjs.json && tsc --project tsconfig.esm.json",
     "dev": "tsc --watch --project tsconfig.json",
     "lint": "eslint src --ext .ts,.tsx",
     "test": "jest",
