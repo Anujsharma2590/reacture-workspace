@@ -23,3 +23,5 @@ build/
 .env
 
 *storybook.log
+
+things-to-do.md
