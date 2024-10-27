@@ -1,4 +1,3 @@
-// src/index.ts
-
-export { Tokens, defaultTokens } from './tokens';
+export { defaultTokens } from './tokens';
+export type { Tokens } from './tokens';
 export { ReactureProvider, useTheme } from './ThemeProvider';

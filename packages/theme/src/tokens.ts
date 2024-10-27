@@ -12,5 +12,5 @@ export const defaultTokens: Tokens = {
   colorNeutralForeground3: "#000000",  // Black
   colorBrandPrimary: "#0078D4",        // Blue
   spacingHorizontalM: "8px",           // Medium spacing
-  fontSizeBase300: "14px"              // Base font size
+  fontSizeBase300: "14px",             // Base font size
 };

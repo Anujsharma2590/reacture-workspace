@@ -5,6 +5,12 @@
       "outputs": ["dist/**", "!node_modules/**"],
       "dependsOn": ["^build"]
     },
+    "@reacture/core#build": {
+      "dependsOn": ["@reacture/theme#build"]
+    },
+    "@reacture/grid#build": {
+      "dependsOn": ["@reacture/theme#build"]
+    },
     "lint": {
       "outputs": []
     },

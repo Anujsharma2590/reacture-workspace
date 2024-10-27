@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",               // Use React's new automatic JSX runtime
+    "jsxImportSource": "@emotion/react",
     "target": "ES5",
     "module": "ESNext",
     "declaration": true,
     "emitDeclarationOnly": false,
-    "jsx": "react",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

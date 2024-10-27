@@ -34,8 +34,9 @@ const config: StorybookConfig = {
     config.resolve = config.resolve || {};
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@reacture/core': resolve(__dirname, '../packages/core/src'), 
-      
+      '@reacture/core': resolve(__dirname, '../packages/core/src'),
+      '@reacture/grid': resolve(__dirname, '../packages/grid/src'),
+      '@reacture/theme': resolve(__dirname, '../packages/theme/src'),
     };
 
     return config;
