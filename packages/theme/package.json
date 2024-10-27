@@ -1,0 +1,34 @@
+{
+  "name": "@reacture/theme",
+  "version": "1.0.0",
+  "description": "A theming package for Reacture components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc --project tsconfig.json",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "react": ">=16.8.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.0",
+    "rimraf": "^3.0.0"
+  },
+  "author": "Anuj Sharma <aanuj.sharma2590@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anujsharma2590/reacture-workspace.git",
+    "directory": "packages/theme"
+  }
+}
