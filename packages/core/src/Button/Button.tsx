@@ -9,8 +9,9 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
-export const Button: FC<ButtonProps> = ({ label, primary = false, onClick }) => {
+export const Button: FC<ButtonProps> = (props) => {
   const { tokens } = useTheme();
+  const { label, primary = false } = props;
 
   const buttonStyles = makeStyles({
     backgroundColor: primary ? tokens.colorBrandPrimary : 'transparent',
@@ -22,7 +23,7 @@ export const Button: FC<ButtonProps> = ({ label, primary = false, onClick }) => 
   });
 
   return (
-    <button css={buttonStyles} onClick={onClick}>
+    <button css={buttonStyles} {...props}>
       {label}
     </button>
   );
