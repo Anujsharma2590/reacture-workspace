@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-import React from 'react';
+import React, { FC } from 'react';
 import { makeStyles } from '../utils/makeStyles';
 import { useTheme } from '@reacture/theme';
 
@@ -9,7 +9,7 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
-export const Button: React.FC<ButtonProps> = ({ label, primary = false, onClick }) => {
+export const Button: FC<ButtonProps> = ({ label, primary = false, onClick }) => {
   const { tokens } = useTheme();
 
   const buttonStyles = makeStyles({

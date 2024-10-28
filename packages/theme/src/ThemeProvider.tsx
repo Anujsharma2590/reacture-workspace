@@ -12,7 +12,7 @@ const ThemeContext = createContext<ThemeContextType>({ tokens: defaultTokens });
 
 type ThemeProviderProps = {
   children: ReactNode;
-  customTokens?: Partial<Tokens>; // Allow customization of tokens
+  customTokens?: Partial<Tokens>; 
 };
 
 export const ReactureProvider: React.FC<ThemeProviderProps> = ({ children, customTokens }) => {
@@ -29,3 +29,4 @@ export const ReactureProvider: React.FC<ThemeProviderProps> = ({ children, custo
 export const useTheme = () => {
   return useContext(ThemeContext);
 };
+
