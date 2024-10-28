@@ -1,5 +1,12 @@
 # @reacture/grid
 
+## 4.0.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @reacture/core@2.2.0
+
 ## 3.0.0
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@reacture/core",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "A core set of React UI components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

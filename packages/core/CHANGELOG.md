@@ -1,5 +1,11 @@
 # @reacture/core
 
+## 2.2.0
+
+### Minor Changes
+
+- fixes
+
 ## 2.1.2
 
 ### Patch Changes
