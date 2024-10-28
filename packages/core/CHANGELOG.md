@@ -1,5 +1,17 @@
 # @reacture/core
 
+## 2.1.2
+
+### Patch Changes
+
+- add extension
+
+## 2.1.1
+
+### Patch Changes
+
+- add all props
+
 ## 2.1.0
 
 ### Minor Changes
