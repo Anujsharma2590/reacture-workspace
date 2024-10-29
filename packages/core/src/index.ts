@@ -5,3 +5,4 @@ export { ReactureProvider, useTheme } from "@reacture/theme";
 
 export { mergeClasses } from "./utils/mergeClasses";
 export { makeStyles } from "./utils/makeStyles";
+export {addNumber } from './utils/addNumber';
