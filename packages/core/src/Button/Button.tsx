@@ -16,17 +16,19 @@ export const Button: FC<ButtonProps> = (props) => {
 
   // Define button styles using makeStyles utility
   const buttonStyles = makeStyles({
-    backgroundColor: primary ? tokens.colorBrandPrimary : 'transparent',
-    color: tokens.colorNeutralForeground3,
-    padding: tokens.spacingHorizontalM,
-    fontSize: tokens.fontSizeBase300,
-    border: 'none',
-    cursor: 'pointer',
+    button: {
+      backgroundColor: primary ? tokens.colorBrandPrimary : 'transparent',
+      color: tokens.colorNeutralForeground3,
+      padding: tokens.spacingHorizontalM,
+      fontSize: tokens.fontSizeBase300,
+      border: 'none',
+      cursor: 'pointer',
+    },
   });
 
   return (
     <button
-      css={buttonStyles}
+      css={buttonStyles.button} // Apply the generated styles
       style={style} // Allow inline styles from props
       {...rest} // Spread native button attributes
     >
