@@ -1,5 +1,16 @@
 # @reacture/core
 
+## 3.0.0
+
+### Minor Changes
+
+- fix issues
+
+### Patch Changes
+
+- Updated dependencies
+  - @reacture/theme@1.1.0
+
 ## 2.2.1
 
 ### Patch Changes

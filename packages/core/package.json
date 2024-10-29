@@ -1,6 +1,6 @@
 {
   "name": "@reacture/core",
-  "version": "2.2.1",
+  "version": "3.0.0",
   "description": "A core set of React UI components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -43,7 +43,7 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
-    "@reacture/theme": "1.0.1"
+    "@reacture/theme": "1.1.0"
   },
   "devDependencies": {
     "@types/react": ">=16.8.0 <19.0.0",
