@@ -1,5 +1,11 @@
 # @reacture/core
 
+## 3.0.2
+
+### Patch Changes
+
+- add readme
+
 ## 3.0.1
 
 ### Patch Changes
