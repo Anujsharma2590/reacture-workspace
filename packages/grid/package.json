@@ -36,7 +36,8 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
-    "@reacture/core": "^2.2.0"
+    "@reacture/core": "^2.2.0",
+    "@reacture/theme": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
