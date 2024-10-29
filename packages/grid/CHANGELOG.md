@@ -1,5 +1,14 @@
 # @reacture/grid
 
+## 4.0.1
+
+### Patch Changes
+
+- add export functions
+- Updated dependencies
+  - @reacture/core@2.2.1
+  - @reacture/theme@1.0.1
+
 ## 4.0.0
 
 ### Patch Changes

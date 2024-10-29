@@ -1,6 +1,6 @@
 {
   "name": "@reacture/grid",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Advanced grid components for Reacture",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -36,8 +36,8 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
-    "@reacture/core": "^2.2.0",
-    "@reacture/theme": "^1.0.0"
+    "@reacture/core": "^2.2.1",
+    "@reacture/theme": "^1.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

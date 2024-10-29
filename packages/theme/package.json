@@ -1,6 +1,6 @@
 {
   "name": "@reacture/theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A theming package for Reacture components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
