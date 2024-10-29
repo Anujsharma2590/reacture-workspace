@@ -1,5 +1,13 @@
 # @reacture/core
 
+## 3.0.1
+
+### Patch Changes
+
+- add readme file
+- Updated dependencies
+  - @reacture/theme@1.1.1
+
 ## 3.0.0
 
 ### Minor Changes

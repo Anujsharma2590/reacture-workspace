@@ -1,5 +1,14 @@
 # @reacture/grid
 
+## 5.0.1
+
+### Patch Changes
+
+- add readme file
+- Updated dependencies
+  - @reacture/core@3.0.1
+  - @reacture/theme@1.1.1
+
 ## 5.0.0
 
 ### Minor Changes
