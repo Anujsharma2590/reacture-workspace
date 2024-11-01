@@ -9,10 +9,13 @@
     "build": "vite build"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "@reacture/core": "*",
     "@reacture/grid": "*",
-    "@reacture/theme": "*"
+    "@reacture/theme": "*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
   }
 }
